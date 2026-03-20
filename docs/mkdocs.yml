@@ -60,6 +60,8 @@ nav:
       - flink-configuration.md
     - Kafka Connect: kafka-connect.md
     - Apache Hive: hive.md
+    - Apache Arrow:
+      - Arrow Type Mapping: arrow-type-mapping.md
   - Migration:
       - Overview: table-migration.md
       - Hive Migration: hive-migration.md

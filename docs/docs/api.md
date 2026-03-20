@@ -234,6 +234,13 @@ table.newScan()
     .filter(Expressions.lessThan("x", 10))
 ```
 
+## Arrow type mapping
+
+Iceberg’s Java implementation can expose data as Apache Arrow vectors in
+vectorized read paths and integrations. For a detailed reference of how
+Iceberg types map to Apache Arrow types, see the
+[Arrow type mapping](arrow-type-mapping.md) documentation.
+
 ## Modules
 
 Iceberg table support is organized in library modules:
